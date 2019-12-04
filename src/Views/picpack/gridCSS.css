@@ -1,0 +1,17 @@
+.gridCSS {
+    -fx-background-color: white ;
+    -fx-padding: 10 ;
+}
+.gridCSS-cell {
+    -fx-background-color: black, white ;
+    -fx-background-insets: 0, 0 1 1 0 ;
+}
+.gridCSS-cell.first-row {
+    -fx-background-insets: 0, 1 1 1 0 ;
+}
+.gridCSS-cell.first-column {
+    -fx-background-insets: 0, 0 1 1 1 ;
+}
+.gridCSS-cell.first-row.first-column {
+    -fx-background-insets: 0, 1 ;
+}
